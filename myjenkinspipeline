@@ -1,0 +1,17 @@
+node{
+    
+stage('clone java project') {
+    git branch: 'main', url: 'https://github.com/veeera205678/gitall18may22.git'
+}    
+    
+stage('execute maven target') {
+    sh 'mvn install'
+}
+    
+    
+    
+    
+    
+    
+    
+}
